@@ -120,9 +120,4 @@ This work draws on publicly available datasets from:
 
 Special thanks to collaborators and reviewers for their invaluable feedback.
 
----
 
-## Contact  
-For questions, feedback, or collaboration opportunities, please contact:  
-**Erma Swartz**  
-Email: [your-email@example.com]
