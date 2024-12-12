@@ -1,0 +1,33 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  FSHRI   R-squared:                       0.298
+Model:                            OLS   Adj. R-squared:                  0.296
+Method:                 Least Squares   F-statistic:                     155.0
+Date:                Sat, 30 Nov 2024   Prob (F-statistic):          2.46e-164
+Time:                        12:49:28   Log-Likelihood:                -3491.0
+No. Observations:                2196   AIC:                             6996.
+Df Residuals:                    2189   BIC:                             7036.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+====================================================================================================================================
+                                                                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------------------------------------
+const                                                                2.4982      0.349      7.166      0.000       1.815       3.182
+Estimate Total: White alone                                         -1.0644      0.362     -2.942      0.003      -1.774      -0.355
+Estimate Total: Black or African American alone                      0.2583      0.364      0.710      0.478      -0.455       0.971
+Estimate Total: American Indian and Alaska Native alone              0.9742      1.652      0.590      0.555      -2.266       4.214
+Estimate Total: Asian alone                                          3.0629      0.377      8.131      0.000       2.324       3.802
+Estimate Total: Native Hawaiian and Other Pacific Islander alone    -3.1290      2.044     -1.531      0.126      -7.138       0.880
+Estimate Total: Some Other Race alone                                2.6895      0.413      6.505      0.000       1.879       3.500
+Estimate Total: Two or More Races:                                  -0.2933      0.519     -0.565      0.572      -1.311       0.725
+==============================================================================
+Omnibus:                       51.317   Durbin-Watson:                   1.755
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.795
+Skew:                          -0.015   Prob(JB):                     1.52e-06
+Kurtosis:                       2.460   Cond. No.                     4.82e+15
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 1.18e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
